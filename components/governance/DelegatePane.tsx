@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Delegation, UserStake, UserVP } from '../../pages/Governance';
 import { chainName, Delegate, delegateList, quadraticVoting } from "../../config";
 import { StakingClient, StakingQueryClient } from '../../codegen/staking/Staking.client';
-import usePopup from './HelperFunctions';
+import usePopup from '../HelperFunctions';
 import { ProposalMessage } from '../../codegen/governance/Governance.types';
 import Popup from '../Popup';
 

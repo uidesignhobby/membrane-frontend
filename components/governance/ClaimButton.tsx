@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import { UserClaims } from '../../pages/Governance';
-import usePopup from './HelperFunctions';
+import usePopup from '../HelperFunctions';
 import { StakingClient } from '../../codegen/staking/Staking.client';
 import Popup from '../Popup';
 interface ClaimButtonProps {

@@ -5,7 +5,7 @@ import {
   VoteOption,
   ProposalVoteOption,
 } from "../../codegen/governance/Governance.types";
-import { usePopup } from "./HelperFunctions";
+import { usePopup } from "../HelperFunctions";
 import { UserVP } from "../../pages/Governance";
 import ProposalDetails from "./ProposalPopup";
 import Popup from "../Popup";

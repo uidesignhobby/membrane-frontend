@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { EmissionsSchedule, UserStake } from "../../pages/Governance";
-import usePopup from "./HelperFunctions";
+import usePopup from "../HelperFunctions";
 import { coins } from "@cosmjs/stargate";
 import { denoms } from "../../config";
 import { StakingClient } from '../../codegen/staking/Staking.client';

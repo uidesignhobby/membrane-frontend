@@ -2,7 +2,7 @@ import { useState } from "react";
 import Popup from "../Popup";
 import { coins } from "@cosmjs/stargate";
 import { denoms } from "../../config";
-import { connectWallet, getWorkingDenom, usePopup } from "./HelperFunctions";
+import { connectWallet, getWorkingDenom, usePopup } from "../HelperFunctions";
 
 
 interface LQClaims {

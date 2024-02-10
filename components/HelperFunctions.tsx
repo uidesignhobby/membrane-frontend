@@ -1,5 +1,5 @@
 //============================================================================
-// This file contains Helper functions for the liquidations page
+// This file contains Helper functions for the UI.
 //============================================================================
 
 import { useState } from "react";

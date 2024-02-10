@@ -3,7 +3,7 @@ import { UserStake } from '../../pages/Governance';
 import ProgressBar from '../progress_bar';
 import Image from 'next/image';
 import { unstakingPeriod } from "../../pages";
-import usePopup from './HelperFunctions';
+import usePopup from '../HelperFunctions';
 import { StakingClient } from '../../codegen/staking/Staking.client';
 import Popup from '../Popup';
 
